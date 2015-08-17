@@ -1,0 +1,19 @@
+{
+  "name": "atom-chat-server",
+  "version": "0.0.0",
+  "description": "Node Server for Atom Chat Package",
+  "main": "server.js",
+  "author": "Mert Kahyaoğlu",
+  "dependencies": {
+        "express": "~4.8.8",
+        "socket.io": "~1.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mertkahyaoglu/atom-chat-server.git"
+  }
+
+}
