@@ -1,4 +1,4 @@
 atom-chat-server
 =========
 
-Node Server for Atom Chat Package
+Node server for Atom Chat Package built with Express and Socket.io.
