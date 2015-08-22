@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title Atom Chat Server
+    link(rel='stylesheet', href='/css/style.css')
+    script(src="/socket.io/socket.io.js")
+    script.
+      var socket = io.connect();
+      socket.on("atom:online", function(online) {
+        document.querySelector('.online span').innerHTML = " ("+online+") ";
+      })
+  body
+
+    img(src="img/atom-logo.png")
+    h1 Atom Chat Server
+    h1.online Online:
+      span

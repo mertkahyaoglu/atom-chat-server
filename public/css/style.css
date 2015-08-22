@@ -1,0 +1,30 @@
+body {
+  background-color: #313541;
+  font-family: "Gotham";
+  text-align: center;
+}
+
+h1 {
+  font-size: 58px;
+  margin-top: 0;
+  height: 100%;
+  color: #EFEBE1;
+  text-align: center;
+}
+
+h1.online {
+  font-size: 48px;
+}
+
+img {
+  margin: 64px auto;
+}
+
+span {
+  color: #20B27C;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url('/font/gotham.ttf');
+}
